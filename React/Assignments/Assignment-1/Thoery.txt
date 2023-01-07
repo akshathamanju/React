@@ -1,0 +1,68 @@
+Chapter 01 - Inception
+
+
+Ques 1 :- What is Emmet?
+Solu 1 :- Emmet (formerly Zen Coding) is a set of plug-ins for text editors that allow for high-speed
+coding and editing in HTML, XML, XSLT, and other structured code formats via content assist.
+
+Ques 2 :- Difference between a Library and Framework?
+Solu 2 :- Library :
+• A library is a group of reusable functions and classes which are used by the developers to
+perform several common tasks.
+• While using a library in the program, the user has full control when he uses the functions or
+classes from the Library.
+• Example : React , Redux
+ Framework :
+• A framework is basically a piece of code that dictates the architecture or the structure of our
+project and also adds in our programs.
+• In frameworks, code never called into a framework. Instead, the Framework calls you.
+• Example : Angular, Express, Django.
+
+
+Ques 3 :- What is CDN? Why do we use it?
+Solu 3 :- A content delivery network (CDN) refers to a geographically distributed group of servers
+which work together to provide fast delivery of Internet content.
+CDN is a network of servers linked together with the goal of delivering content as quickly, cheaply,
+reliably, and securely as possible. In order to improve speed and connectivity, a CDN will place servers at
+the exchange points between different networks.
+
+
+Ques 4 :- Why is React known as React?
+Solu 4 :- React is named React because of its ability to react to changes in data. When the data in a
+React component changes, React will automatically re-render the component so that it reflects the new
+data. This makes it easy to create performant user interfaces that always look up-to-date.
+
+
+Ques 5 :- What is crossorigin in script tag?
+Solu 5 :- Crossorigin in script tag :-
+• The crossorigin attribute specifies that the script element supports CORS.
+• CORS stands for Cross Origin Resource Sharing.
+• CORS is a standard mechanism to retrieve files from a third party domain or server.
+• If specified, the script file request will be sent with or without credentials.
+Note: This attribute is only relevant when the script is retrieved from a third party server. Do not use
+this attribute when these files are on your own server.
+
+
+Ques 6 :- What is diference between React and ReactDOM
+Solu 6 :- React library is responsible for creating views and ReactDOM library is responsible to
+actually render UI in the browser.
+React is a JavaScript library, used for building user interfaces. It is used for building single-page
+applications and mobile applications.
+React DOM is a JS library, used for interacting with the DOM and render components to DOM.
+
+
+Ques 7 :- What is difference between react.development.js and react.production.js files via CDN?
+Solu 7 :- The development build is used - as the name suggests - for development reasons.
+The production build, on the other hand, runs in production mode which means , this is the code
+running on your client's machine.
+
+
+Ques 8 :- What is async and defer?
+Solu 8 :- The async and defer scripts are executed at different moments :-
+• After an async script is downloaded, the browser will pause the document parser, execute the
+script and resume parsing the document.
+• The defer script, on the other hand, will be executed only when the parser has completed its
+job.
+• The async script is executed as soon as it is downloaded completely, hence they might not be
+executed at the same order as they appear in the page.
+• On the other hand, the defer scripts guarantee the order of execution.
